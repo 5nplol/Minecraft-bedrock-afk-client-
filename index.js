@@ -14,7 +14,7 @@ const accs = [
 
 
 
-function createClient() {
+function createClient(username) {
     const client = bedrock.createClient({
         host: 'minecraft-server.com', // Replace with the server IP
         port: 19132, // port
